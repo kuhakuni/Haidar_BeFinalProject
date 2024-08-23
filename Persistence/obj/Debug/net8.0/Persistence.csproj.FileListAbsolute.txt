@@ -35,6 +35,7 @@ D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.G
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Persistence\obj\Debug\net8.0\Persistence.pdb

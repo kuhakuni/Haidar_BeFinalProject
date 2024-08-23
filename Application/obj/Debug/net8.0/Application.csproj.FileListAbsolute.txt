@@ -178,6 +178,9 @@ D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Microsoft.Ide
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\StackExchange.Redis.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -212,6 +215,7 @@ D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\Application.A
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\Application.MvcApplicationPartsAssemblyInfo.cs
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\Application.MvcApplicationPartsAssemblyInfo.cache
+D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\Application.sourcelink.json
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\staticwebassets.build.json
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\staticwebassets.development.json
 D:\Mandiri\Bootcamp\day-3\LearnWebApi\Application\obj\Debug\net8.0\staticwebassets\msbuild.Application.Microsoft.AspNetCore.StaticWebAssets.props
