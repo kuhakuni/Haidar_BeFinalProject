@@ -20,38 +20,6 @@
     ]
   },
   {
-    "ContainingType": "Application.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/v1/login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginRequest",
-        "Type": "LoginRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Application.Controllers.AuthController",
-    "Method": "RefreshToken",
-    "RelativePath": "api/v1/refresh-token",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "refreshRequest",
-        "Type": "RefreshRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Application.Controllers.TableController",
     "Method": "CreateTableSpecifications",
     "RelativePath": "api/v1/table/specification",
@@ -280,5 +248,37 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Application.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Application.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/v1/user/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshRequest",
+        "Type": "RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

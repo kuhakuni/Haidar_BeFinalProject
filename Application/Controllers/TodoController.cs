@@ -10,10 +10,12 @@ using Core.Features.Commands.DeleteTodo;
 using Core.Features.Queries.GetTodo;
 using Core.Features.Queries.GetTodoDetails;
 using Core.Features.Commands.CreateTodoDetails;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace Application.Controllers;
 
+[Authorize]
 public class TodoController : BaseController
 {
     private readonly IMediator _mediator;
@@ -23,6 +25,7 @@ public class TodoController : BaseController
         _mediator = mediator;
     }
 
+    [AllowAnonymous]
     [HttpGet("v1/todo/all")]
     public async Task<GetTodoResponse> GetAllTodos(int page)
     {

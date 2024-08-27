@@ -22,7 +22,7 @@ namespace Application.Controllers
         }
 
         [AllowAnonymous]
-        [HttpPost("v1/login")]
+        [HttpPost("v1/user/login")]
         public IActionResult Login([FromBody] LoginRequest loginRequest)
         {
             if (loginRequest.Username == "admin" && loginRequest.Password == "admin")
@@ -40,8 +40,8 @@ namespace Application.Controllers
             return Unauthorized("Invalid username or password.");
         }
 
-        [Authorize]
-        [HttpPost("v1/refresh-token")]
+        [AllowAnonymous]
+        [HttpPost("v1/user/refresh-token")]
         public IActionResult RefreshToken([FromBody] RefreshRequest refreshRequest)
         {
             var principal = ValidateRefreshToken(refreshRequest.RefreshToken);
@@ -51,9 +51,9 @@ namespace Application.Controllers
             }
 
             var userId = principal.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            var newAccessToken = GenerateJwtToken(userId, "User");
+            var role = principal.FindFirst(ClaimTypes.Role)?.Value;
 
-            return Ok(new { token = newAccessToken });
+            return Ok(GenerateJwtToken(userId, role));
         }
 
         private IDictionary<string, string> GenerateJwtToken(string userId, string role, bool includeRefreshToken = false)
@@ -84,7 +84,7 @@ namespace Application.Controllers
 
             if (includeRefreshToken)
             {
-                var refreshToken = GenerateRefreshToken(userId);
+                var refreshToken = GenerateRefreshToken(userId, role);
                 SaveRefreshToken(userId, refreshToken);
                 response.Add("refreshToken", refreshToken);
             }
@@ -92,14 +92,14 @@ namespace Application.Controllers
             return response;
         }
 
-        private string GenerateRefreshToken(string userId)
+        private string GenerateRefreshToken(string userId, string role)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Secret"]);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, userId) }),
+                Subject = new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, userId), new Claim(ClaimTypes.Role, role), }),
                 Expires = DateTime.UtcNow.AddDays(30),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
