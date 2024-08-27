@@ -159,5 +159,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Application.Controllers.TodoController",
+    "Method": "DeleteTodo",
+    "RelativePath": "api/v1/todo/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

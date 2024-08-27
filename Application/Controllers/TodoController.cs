@@ -55,21 +55,21 @@ public class TodoController : BaseController
     //    return BadRequest(response.Message);
     //}
 
-    //[HttpDelete("v1/table/specification/{id}")]
-    //public async Task<IActionResult> DeleteTodo(Guid id)
-    //{
-    //    var command = new DeleteTodoCommand
-    //    {
-    //        TableId = id
-    //    };
+    [HttpDelete("v1/todo/delete/{id}")]
+    public async Task<IActionResult> DeleteTodo(Guid id)
+    {
+        var command = new DeleteTodoCommand
+        {
+            TodoId = id
+        };
 
-    //    var response = await _mediator.Send(command);
+        var response = await _mediator.Send(command);
 
-    //    if (response.Success)
-    //    {
-    //        return Ok(response);
-    //    }
+        if (response.Success)
+        {
+            return Ok(response);
+        }
 
-    //    return BadRequest(response.Message);
-    //}
+        return BadRequest(response.Message);
+    }
 }
