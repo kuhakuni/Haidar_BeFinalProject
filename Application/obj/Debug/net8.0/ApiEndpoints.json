@@ -196,5 +196,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Application.Controllers.TodoController",
+    "Method": "GetTodosDetailByID",
+    "RelativePath": "api/v1/todo/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Features.Queries.GetTodoDetails.GetTodoDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

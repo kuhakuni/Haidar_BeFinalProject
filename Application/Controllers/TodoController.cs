@@ -8,6 +8,7 @@ using Core.Features.Commands.CreateTodo;
 using Core.Features.Commands.UpdateTodo;
 using Core.Features.Commands.DeleteTodo;
 using Core.Features.Queries.GetTodo;
+using Core.Features.Queries.GetTodoDetails;
 
 
 namespace Application.Controllers;
@@ -31,12 +32,26 @@ public class TodoController : BaseController
         var response = await _mediator.Send(request);
         return response;
     }
+
+    [HttpGet("v1/todo/detail/{id}")]
+    public async Task<GetTodoDetailsResponse> GetTodosDetailByID(Guid id)
+    {
+        var request = new GetTodoDetailsQuery()
+        {
+            Id = id
+        };
+
+        var response = await _mediator.Send(request);
+        return response;
+    }
+
     [HttpPost("v1/todo/add")]
     public async Task<CreateTodoResponse> CreateTodo([FromBody] CreateTodoCommand command)
     {
         var response = await _mediator.Send(command);
         return response;
     }
+
     [HttpPut("v1/todo/{id}")]
     public async Task<IActionResult> UpdateTodo(Guid id, [FromBody] UpdateTodoCommand command)
     {

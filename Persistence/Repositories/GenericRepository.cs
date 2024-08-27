@@ -36,4 +36,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         await Task.Run(() => _context.Set<T>().Update(itemToUpdate));
         return itemToUpdate;
     }
+
+    public void AddAll(IEnumerable<T> itemsToAdd)
+    {
+         _context.Set<T>().AddRange(itemsToAdd);
+    }
 }
