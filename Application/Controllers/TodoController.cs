@@ -37,23 +37,23 @@ public class TodoController : BaseController
         var response = await _mediator.Send(command);
         return response;
     }
-    //[HttpPut("v1/table/specification/{id}")]
-    //public async Task<IActionResult> UpdateTodo(Guid id, [FromBody] UpdateTodoCommand command)
-    //{
-    //    if (command == null || id != command.TableId)
-    //    {
-    //        return BadRequest("Invalid table specification data.");
-    //    }
+    [HttpPut("v1/todo/{id}")]
+    public async Task<IActionResult> UpdateTodo(Guid id, [FromBody] UpdateTodoCommand command)
+    {
+        if (command == null || id != command.TodoId)
+        {
+            return BadRequest("Invalid todo data.");
+        }
 
-    //    var response = await _mediator.Send(command);
+        var response = await _mediator.Send(command);
 
-    //    if (response.Success)
-    //    {
-    //        return Ok(response);
-    //    }
+        if (response.Success)
+        {
+            return Ok(response);
+        }
 
-    //    return BadRequest(response.Message);
-    //}
+        return BadRequest(response.Message);
+    }
 
     [HttpDelete("v1/todo/delete/{id}")]
     public async Task<IActionResult> DeleteTodo(Guid id)

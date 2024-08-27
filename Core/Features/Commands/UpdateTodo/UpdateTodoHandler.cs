@@ -7,37 +7,36 @@ namespace Core.Features.Commands.UpdateTodo
 {
     public class UpdateTodoHandler : IRequestHandler<UpdateTodoCommand, UpdateTodoResponse>
     {
-        private readonly ITodoRepository _tableSpecificationRepository;
+        private readonly ITodoRepository _todoRepository;
 
-        public UpdateTodoHandler(ITodoRepository tableSpecificationRepository)
+        public UpdateTodoHandler(ITodoRepository todoRepository)
         {
-            _tableSpecificationRepository = tableSpecificationRepository;
+            _todoRepository = todoRepository;
         }
 
         public async Task<UpdateTodoResponse> Handle(UpdateTodoCommand command, CancellationToken cancellationToken)
         {
-            var tableSpecification = await _tableSpecificationRepository.GetByIdAsync(command.TableId);
+            var todo = await _todoRepository.GetByIdAsync(command.TodoId);
 
-            if (tableSpecification == null)
+            if (todo == null)
             {
                 return new UpdateTodoResponse
                 {
                     Success = false,
-                    Message = "Table specification not found."
+                    Message = "Todo not found."
                 };
             }
 
-            //tableSpecification.TableNumber = command.TableNumber;
-            //tableSpecification.ChairNumber = command.ChairNumber;
-            //tableSpecification.TablePic = command.TablePic;
-            //tableSpecification.TableType = command.TableType;
+            todo.Day = command.Day;
+            todo.Note = command.Note;
+            todo.DetailCount = command.DetailCount;
 
-            //await _tableSpecificationRepository.UpdateAsync(tableSpecification);
+            await _todoRepository.UpdateAsync(todo);
 
             return new UpdateTodoResponse
             {
                 Success = true,
-                Message = "Table specification updated successfully."
+                Message = "Todo updated successfully."
             };
         }
     }

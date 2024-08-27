@@ -4,10 +4,9 @@ namespace Core.Features.Commands.UpdateTodo
 {
     public class UpdateTodoCommand : IRequest<UpdateTodoResponse>
     {
-        public Guid TableId { get; set; }
-        public int TableNumber { get; set; }
-        public int ChairNumber { get; set; }
-        public string TablePic { get; set; }
-        public string TableType { get; set; }
+        public Guid TodoId { get; set; }
+        public string Day { get; set; }
+        public string Note { get; set; }
+        public int DetailCount { get; set; }
     }
 }

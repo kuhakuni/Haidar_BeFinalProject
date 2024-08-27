@@ -110,6 +110,27 @@
   },
   {
     "ContainingType": "Application.Controllers.TodoController",
+    "Method": "UpdateTodo",
+    "RelativePath": "api/v1/todo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Core.Features.Commands.UpdateTodo.UpdateTodoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Application.Controllers.TodoController",
     "Method": "CreateTodo",
     "RelativePath": "api/v1/todo/add",
     "HttpMethod": "POST",

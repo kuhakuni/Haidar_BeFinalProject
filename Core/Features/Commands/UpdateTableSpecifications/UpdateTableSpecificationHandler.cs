@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace Core.Features.Commands.UpdateTableSpecification
 {
-    public class UpdateTodoResponse : IRequestHandler<UpdateTableSpecificationCommand, UpdateTableSpecificationResponse>
+    public class UpdateTableSpecificationHandler : IRequestHandler<UpdateTableSpecificationCommand, UpdateTableSpecificationResponse>
     {
         private readonly ITableSpecificationRepository _tableSpecificationRepository;
 
-        public UpdateTodoResponse(ITableSpecificationRepository tableSpecificationRepository)
+        public UpdateTableSpecificationHandler(ITableSpecificationRepository tableSpecificationRepository)
         {
             _tableSpecificationRepository = tableSpecificationRepository;
         }
