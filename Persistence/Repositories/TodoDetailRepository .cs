@@ -38,4 +38,15 @@ public class TodoDetailRepository : GenericRepository<TodoDetail>, ITodoDetailRe
         _context.TodoDetail.Remove(todoDetail);
         await _context.SaveChangesAsync();
     }
+
+    public async Task AddAllAsync(IEnumerable<TodoDetail> todoDetails)
+    {
+        if (todoDetails == null || !todoDetails.Any())
+        {
+            throw new ArgumentException("The collection of todo details cannot be null or empty.", nameof(todoDetails));
+        }
+
+        _context.TodoDetail.AddRange(todoDetails);
+        await _context.SaveChangesAsync(); 
+    }
 }

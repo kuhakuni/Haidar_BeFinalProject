@@ -18,9 +18,6 @@ namespace Persistence.Models
         [Required]
         public Guid TodoId { get; set; }
 
-        [ForeignKey("TodoId")]
-        public Todo Todo { get; set; }
-
         [Required]
         public string Activity { get; set; }
 

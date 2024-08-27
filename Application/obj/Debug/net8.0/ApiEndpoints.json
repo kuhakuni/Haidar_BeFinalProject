@@ -222,5 +222,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Application.Controllers.TodoController",
+    "Method": "CreateTodoDetailsBulk",
+    "RelativePath": "api/v1/todo/detail/add-bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Core.Features.Commands.CreateTodoDetails.CreateTodoDetailsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Features.Commands.CreateTodoDetails.CreateTodoDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
