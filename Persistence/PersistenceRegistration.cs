@@ -15,16 +15,18 @@ public static class PersistenceRegistration
         
         services.AddDbContext<TableContext>(opt => opt.UseSqlServer(dbConnection));
         services.AddScoped<ITableSpecificationRepository, TableSpecificationRepository>();
+        services.AddScoped<ITodoRepository, TodoRepository>();
+        services.AddScoped<ITodoDetailRepository, TodoDetailRepository>();
 
         return services;
     }
 
     public static IServiceCollection AddRedisServices(this IServiceCollection services, IConfiguration configuration)
-{
-    var redisConfig = configuration.GetConnectionString("Redis") ?? "localhost:6379";
-    services.AddSingleton(new RedisServer(redisConfig));
-    services.AddSingleton<ICacheService, RedisCacheService>();
-    return services;
-}
+    {
+        var redisConfig = configuration.GetConnectionString("Redis") ?? "localhost:6379";
+        services.AddSingleton(new RedisServer(redisConfig));
+        services.AddSingleton<ICacheService, RedisCacheService>();
+        return services;
+    }
 
 }

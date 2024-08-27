@@ -4,26 +4,26 @@ using Persistence.Repositories;
 
 namespace Core.Features.Queries.GetTableSpecifications;
 
-public class GetTableSpecificationsHandler : IRequestHandler<GetTableSpecificationsQuery, GetTableSpecificationsResponse>
+public class GetTableSpesificationsHandler : IRequestHandler<GetTableSpesificationsQuery, GetTableSpesificationsResponse>
 {
     private readonly ITableSpecificationRepository _tableSpecificationRepository;
     private readonly ICacheService _cacheService;
 
 
-    public GetTableSpecificationsHandler(ITableSpecificationRepository tableSpecificationRepository, ICacheService cacheService)
+    public GetTableSpesificationsHandler(ITableSpecificationRepository tableSpecificationRepository, ICacheService cacheService)
     {
         _tableSpecificationRepository = tableSpecificationRepository;
         _cacheService = cacheService;
     }
 
-    public async Task<GetTableSpecificationsResponse> Handle(GetTableSpecificationsQuery query, CancellationToken cancellationToken)
+    public async Task<GetTableSpesificationsResponse> Handle(GetTableSpesificationsQuery query, CancellationToken cancellationToken)
     {
         bool isRedisActive = _cacheService.IsRedisActive();
         string cacheKey = $"TableSpecification-{query.TableSpecificationId}";
 
         if (isRedisActive)
         {
-            var cachedResponse = _cacheService.Get<GetTableSpecificationsResponse>(cacheKey);
+            var cachedResponse = _cacheService.Get<GetTableSpesificationsResponse>(cacheKey);
             if (cachedResponse != null)
             {
                 return cachedResponse;
@@ -34,10 +34,10 @@ public class GetTableSpecificationsHandler : IRequestHandler<GetTableSpecificati
 
         if (tableSpecification is null)
         {
-            return new GetTableSpecificationsResponse();
+            return new GetTableSpesificationsResponse();
         }
 
-        var response = new GetTableSpecificationsResponse
+        var response = new GetTableSpesificationsResponse
         {
             TableId = tableSpecification.TableId,
             ChairNumber = tableSpecification.ChairNumber,

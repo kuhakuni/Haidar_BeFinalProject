@@ -16,7 +16,7 @@ public class TableSpecificationRepository : GenericRepository<TableSpecification
         return await _context.TableSpecifications.FindAsync(id);
     }
 
-    public async Task AddAsync(TableSpecification tableSpecification) // Implementation of the AddAsync method
+    public async Task AddAsync(TableSpecification tableSpecification) 
     {
         await _context.TableSpecifications.AddAsync(tableSpecification);
         await _context.SaveChangesAsync();

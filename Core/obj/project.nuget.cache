@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zMvmlvI8rYo=",
+  "dgSpecHash": "3308gHNnsd4=",
   "success": true,
-  "projectFilePath": "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

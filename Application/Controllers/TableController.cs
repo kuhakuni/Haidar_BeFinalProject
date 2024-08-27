@@ -21,9 +21,9 @@ public class TableController : BaseController
     }
     
     [HttpGet("v1/table/specification/{id}")]
-    public async Task<GetTableSpecificationsResponse> GetTableSpecifications(Guid id)
+    public async Task<GetTableSpesificationsResponse> GetTableSpecifications(Guid id)
     {
-        var request = new GetTableSpecificationsQuery()
+        var request = new GetTableSpesificationsQuery()
         {
             TableSpecificationId = id
         };

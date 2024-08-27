@@ -3436,11 +3436,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Application\\Application.csproj",
+      "projectPath": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Application\\obj\\",
+      "outputPath": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3462,11 +3462,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Core\\Core.csproj": {
-              "projectPath": "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Core\\Core.csproj"
+            "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Core.csproj": {
+              "projectPath": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Core.csproj"
             },
-            "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\Mandiri\\Bootcamp\\day-3\\LearnWebApi\\Persistence\\Persistence.csproj"
+            "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Persistence.csproj"
             }
           }
         }

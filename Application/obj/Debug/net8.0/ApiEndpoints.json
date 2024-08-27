@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Core.Features.Queries.GetTableSpecifications.GetTableSpecificationsResponse",
+        "Type": "Core.Features.Queries.GetTableSpecifications.GetTableSpesificationsResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,5 +107,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Application.Controllers.TodoController",
+    "Method": "GetAllTodos",
+    "RelativePath": "api/v1/todo/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Features.Queries.GetTodo.GetTodoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
