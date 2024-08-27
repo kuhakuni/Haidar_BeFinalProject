@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettodo\\gettodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettodo\\gettodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F68A827-FF72-4024-BB96-D68535C2631F}|Application\\Application.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\application\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F68A827-FF72-4024-BB96-D68535C2631F}|Application\\Application.csproj|solutionrelative:application\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettodo\\gettodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettodo\\gettodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\persistenceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistenceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\createtodo\\createtablespecificationshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\createtodo\\createtablespecificationshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\createtodo\\createtodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\createtodo\\createtodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\createtodo\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\createtodo\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettablespecifications\\gettablespecificationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettablespecifications\\gettablespecificationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\updatetodo\\updatetodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\updatetodo\\updatetodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettodo\\gettodoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +39,60 @@
       "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\models\\tododetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\tododetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettodo\\gettodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettodo\\gettodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\models\\tablespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\tablespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\updatetodo\\updatetodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\updatetodo\\updatetodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\updatetodo\\updatetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\updatetodo\\updatetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\deletetodo\\deletetodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\deletetodo\\deletetodohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\deletetodo\\deletetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\deletetodo\\deletetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\commands\\deletetodo\\deletetodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\commands\\deletetodo\\deletetodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F68A827-FF72-4024-BB96-D68535C2631F}|Application\\Application.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\application\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F68A827-FF72-4024-BB96-D68535C2631F}|Application\\Application.csproj|solutionrelative:application\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\itododetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\itododetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\databasecontext\\tablecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\tablecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettodo\\gettodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettodo\\gettodoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\models\\tododetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\tododetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F68A827-FF72-4024-BB96-D68535C2631F}|Application\\Application.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\application\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +103,8 @@
       "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettablespecifications\\gettablespecificationsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettablespecifications\\gettablespecificationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettablespecifications\\gettablespecificationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\core\\features\\queries\\gettablespecifications\\gettablespecificationshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A096F958-CF27-49B4-BC48-421A1ED8E46B}|Core\\Core.csproj|solutionrelative:core\\features\\queries\\gettablespecifications\\gettablespecificationshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\databasecontext\\tablecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\databasecontext\\tablecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\tododetailrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,24 +115,8 @@
       "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\tablespecificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\itododetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\itododetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\repositories\\itablespecificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\itablespecificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\persistenceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\persistenceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\models\\tablespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|solutionrelative:persistence\\models\\tablespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{328AC1D1-D9DB-42CE-8C12-4166098FF700}|Persistence\\Persistence.csproj|d:\\mandiri\\bootcamp\\be-project\\haidar_redis\\persistence\\redis\\redisserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,124 +182,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetTodoHandler.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
-              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
-              "RelativeToolTip": "Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:46:09.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TodoRepository.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\TodoRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\TodoRepository.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\TodoRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\TodoRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:57:35.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TodoDetail.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TodoDetail.cs",
-              "RelativeDocumentMoniker": "Persistence\\Models\\TodoDetail.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TodoDetail.cs",
-              "RelativeToolTip": "Persistence\\Models\\TodoDetail.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Title": "CreateTodoCommand.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTodo\\CreateTodoCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\CreateTodo\\CreateTodoCommand.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTodo\\CreateTodoCommand.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\CreateTodo\\CreateTodoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T03:54:23.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetTodoResponse.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
-              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
-              "RelativeToolTip": "Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:46:54.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetTodoQuery.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
-              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
-              "RelativeToolTip": "Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:46:47.27Z",
+              "WhenOpened": "2024-08-27T07:24:07.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Todo.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\Todo.cs",
-              "RelativeDocumentMoniker": "Persistence\\Models\\Todo.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\Todo.cs",
-              "RelativeToolTip": "Persistence\\Models\\Todo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Title": "CreateTodoResponse.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTodo\\CreateTodoResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\CreateTodo\\CreateTodoResponse.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTodo\\CreateTodoResponse.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\CreateTodo\\CreateTodoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T03:47:39.465Z",
+              "WhenOpened": "2024-08-27T07:24:34.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "CreateTableSpecificationsHandler.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTodo\\CreateTableSpecificationsHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\CreateTodo\\CreateTableSpecificationsHandler.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTodo\\CreateTableSpecificationsHandler.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\CreateTodo\\CreateTableSpecificationsHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:24:19.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersistenceRegistration.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\PersistenceRegistration.cs",
+              "RelativeDocumentMoniker": "Persistence\\PersistenceRegistration.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\PersistenceRegistration.cs",
+              "RelativeToolTip": "Persistence\\PersistenceRegistration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:51:18.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TodoController.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "Application\\Controllers\\TodoController.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Controllers\\TodoController.cs",
-              "RelativeToolTip": "Application\\Controllers\\TodoController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Controllers\\TodoController.cs*",
+              "RelativeToolTip": "Application\\Controllers\\TodoController.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T06:14:59.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITodoRepository.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ITodoRepository.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ITodoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T04:08:07.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetTableSpecificationsResponse.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
-              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
-              "RelativeToolTip": "Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:04:55.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "GetTableSpecificationsQuery.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsQuery.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsQuery.cs",
@@ -276,7 +260,241 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateTodoHandler.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTodo\\UpdateTodoHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\UpdateTodo\\UpdateTodoHandler.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTodo\\UpdateTodoHandler.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\UpdateTodo\\UpdateTodoHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:01:11.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetTodoQuery.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
+              "RelativeToolTip": "Core\\Features\\Queries\\GetTodo\\GetTodoQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:46:47.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "Persistence\\Models\\Todo.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\Todo.cs",
+              "RelativeToolTip": "Persistence\\Models\\Todo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T03:47:39.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetTodoHandler.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
+              "RelativeToolTip": "Core\\Features\\Queries\\GetTodo\\GetTodoHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:46:09.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:56:31.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TableSpecification.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TableSpecification.cs",
+              "RelativeDocumentMoniker": "Persistence\\Models\\TableSpecification.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TableSpecification.cs",
+              "RelativeToolTip": "Persistence\\Models\\TableSpecification.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T10:49:54.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateTodoResponse.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTodo\\UpdateTodoResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\UpdateTodo\\UpdateTodoResponse.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTodo\\UpdateTodoResponse.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\UpdateTodo\\UpdateTodoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:02:17.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateTodoCommand.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTodo\\UpdateTodoCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\UpdateTodo\\UpdateTodoCommand.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTodo\\UpdateTodoCommand.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\UpdateTodo\\UpdateTodoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:00:42.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteTodoHandler.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\DeleteTodo\\DeleteTodoHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\DeleteTodo\\DeleteTodoHandler.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\DeleteTodo\\DeleteTodoHandler.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\DeleteTodo\\DeleteTodoHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:58:38.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeleteTodoResponse.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\DeleteTodo\\DeleteTodoResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\DeleteTodo\\DeleteTodoResponse.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\DeleteTodo\\DeleteTodoResponse.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\DeleteTodo\\DeleteTodoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:58:29.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeleteTodoCommand.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\DeleteTodo\\DeleteTodoCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Commands\\DeleteTodo\\DeleteTodoCommand.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\DeleteTodo\\DeleteTodoCommand.cs",
+              "RelativeToolTip": "Core\\Features\\Commands\\DeleteTodo\\DeleteTodoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:58:02.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\TodoRepository.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\TodoRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\TodoRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:57:35.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITodoDetailRepository.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoDetailRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\ITodoDetailRepository.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoDetailRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\ITodoDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T04:11:23.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ITodoRepository.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\ITodoRepository.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\ITodoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T04:08:07.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetTodoResponse.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
+              "RelativeToolTip": "Core\\Features\\Queries\\GetTodo\\GetTodoResponse.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:46:54.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TableContext.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\DatabaseContext\\TableContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\TableContext.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\DatabaseContext\\TableContext.cs",
+              "RelativeToolTip": "Persistence\\DatabaseContext\\TableContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T03:46:41.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TodoDetail.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TodoDetail.cs",
+              "RelativeDocumentMoniker": "Persistence\\Models\\TodoDetail.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TodoDetail.cs",
+              "RelativeToolTip": "Persistence\\Models\\TodoDetail.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T03:54:23.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetTableSpecificationsResponse.cs",
+              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
+              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
+              "RelativeToolTip": "Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsResponse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:04:55.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "TableController.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Controllers\\TableController.cs",
               "RelativeDocumentMoniker": "Application\\Controllers\\TableController.cs",
@@ -289,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "GetTableSpecificationsHandler.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsHandler.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Queries\\GetTableSpecifications\\GetTableSpecificationsHandler.cs",
@@ -302,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "TodoDetailRepository .cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\TodoDetailRepository .cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\TodoDetailRepository .cs",
@@ -314,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "TableSpecificationRepository.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\TableSpecificationRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\TableSpecificationRepository.cs",
@@ -326,43 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITodoDetailRepository.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoDetailRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ITodoDetailRepository.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITodoDetailRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ITodoDetailRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T04:11:23.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TableContext.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\DatabaseContext\\TableContext.cs",
-              "RelativeDocumentMoniker": "Persistence\\DatabaseContext\\TableContext.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\DatabaseContext\\TableContext.cs",
-              "RelativeToolTip": "Persistence\\DatabaseContext\\TableContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T03:46:41.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepository.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:56:31.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "ITableSpecificationRepository.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\ITableSpecificationRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\ITableSpecificationRepository.cs",
@@ -374,31 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PersistenceRegistration.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\PersistenceRegistration.cs",
-              "RelativeDocumentMoniker": "Persistence\\PersistenceRegistration.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\PersistenceRegistration.cs",
-              "RelativeToolTip": "Persistence\\PersistenceRegistration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:51:18.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TableSpecification.cs",
-              "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TableSpecification.cs",
-              "RelativeDocumentMoniker": "Persistence\\Models\\TableSpecification.cs",
-              "ToolTip": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Models\\TableSpecification.cs",
-              "RelativeToolTip": "Persistence\\Models\\TableSpecification.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:49:54.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "RedisCacheService.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Redis\\RedisCacheService.cs",
               "RelativeDocumentMoniker": "Persistence\\Redis\\RedisCacheService.cs",
@@ -410,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "RedisServer.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Redis\\RedisServer.cs",
               "RelativeDocumentMoniker": "Persistence\\Redis\\RedisServer.cs",
@@ -422,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "CreateTableSpecificationsHandler.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTableSpecifications\\CreateTableSpecificationsHandler.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Commands\\CreateTableSpecifications\\CreateTableSpecificationsHandler.cs",
@@ -434,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "CreateTableSpecificationsCommand.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTableSpecifications\\CreateTableSpecificationsCommand.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Commands\\CreateTableSpecifications\\CreateTableSpecificationsCommand.cs",
@@ -446,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "CreateTableSpecificationsResponse.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\CreateTableSpecifications\\CreateTableSpecificationsResponse.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Commands\\CreateTableSpecifications\\CreateTableSpecificationsResponse.cs",
@@ -458,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "ICacheService.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Redis\\ICacheService.cs",
               "RelativeDocumentMoniker": "Persistence\\Redis\\ICacheService.cs",
@@ -470,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\IGenericRepository.cs",
@@ -482,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Application\\Program.cs",
               "RelativeDocumentMoniker": "Application\\Program.cs",
@@ -494,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "Persistence.csproj",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Persistence\\Persistence.csproj",
               "RelativeDocumentMoniker": "Persistence\\Persistence.csproj",
@@ -506,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "UpdateTableSpecificationHandler.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationHandler.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationHandler.cs",
@@ -514,11 +672,12 @@
               "RelativeToolTip": "Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationHandler.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAswBIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T11:03:18.544Z"
+              "WhenOpened": "2024-08-22T11:03:18.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "UpdateTableSpecificationCommand.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationCommand.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationCommand.cs",
@@ -530,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "UpdateTableSpecificationResponse.cs",
               "DocumentMoniker": "D:\\Mandiri\\Bootcamp\\be-project\\haidar_redis\\Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationResponse.cs",
               "RelativeDocumentMoniker": "Core\\Features\\Commands\\UpdateTableSpecifications\\UpdateTableSpecificationResponse.cs",

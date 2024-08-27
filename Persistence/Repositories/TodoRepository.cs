@@ -13,7 +13,7 @@ public class TodoRepository : GenericRepository<Todo>, ITodoRepository
         _context = context;
     }
 
-    public IQueryable<Todo> GetAllAsync()
+    public IQueryable<Todo> GetAll()
     {
         return _context.Todo.Include(Todo => Todo.TodoDetails).OrderByDescending(Todo => Todo.TodayDate);
     }

@@ -31,7 +31,7 @@ public class GetTodoHandler : IRequestHandler<GetTodoQuery, GetTodoResponse>
             }
         }
 
-        var todos =  _todoRepository.GetAllAsync();
+        var todos =  _todoRepository.GetAll();
 
         if (todos is null)
         {

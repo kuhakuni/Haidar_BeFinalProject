@@ -110,6 +110,32 @@
   },
   {
     "ContainingType": "Application.Controllers.TodoController",
+    "Method": "CreateTodo",
+    "RelativePath": "api/v1/todo/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Core.Features.Commands.CreateTodo.CreateTodoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Features.Commands.CreateTodo.CreateTodoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Application.Controllers.TodoController",
     "Method": "GetAllTodos",
     "RelativePath": "api/v1/todo/all",
     "HttpMethod": "GET",

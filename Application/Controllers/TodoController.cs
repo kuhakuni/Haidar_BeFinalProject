@@ -1,12 +1,12 @@
-﻿using Core.Features.Queries.GetTableSpecifications;
+﻿using Core.Features.Queries.GetTodo;
 using MediatR;
 using Persistence.DatabaseContext;
 using Persistence.Models;
 using Microsoft.AspNetCore.Mvc;
 using Persistence.Repositories;
-using Core.Features.Commands.CreateTableSpecifications;
-using Core.Features.Commands.UpdateTableSpecification;
-using Core.Features.Commands.DeleteTableSpecification;
+using Core.Features.Commands.CreateTodo;
+using Core.Features.Commands.UpdateTodo;
+using Core.Features.Commands.DeleteTodo;
 using Core.Features.Queries.GetTodo;
 
 
@@ -31,14 +31,14 @@ public class TodoController : BaseController
         var response = await _mediator.Send(request);
         return response;
     }
-    //[HttpPost("v1/table/specification")]
-    //public async Task<CreateTableSpecificationsResponse> CreateTableSpecifications([FromBody] CreateTableSpecificationsCommand command)
-    //{
-    //    var response = await _mediator.Send(command);
-    //    return response;
-    //}
+    [HttpPost("v1/todo/add")]
+    public async Task<CreateTodoResponse> CreateTodo([FromBody] CreateTodoCommand command)
+    {
+        var response = await _mediator.Send(command);
+        return response;
+    }
     //[HttpPut("v1/table/specification/{id}")]
-    //public async Task<IActionResult> UpdateTableSpecification(Guid id, [FromBody] UpdateTableSpecificationCommand command)
+    //public async Task<IActionResult> UpdateTodo(Guid id, [FromBody] UpdateTodoCommand command)
     //{
     //    if (command == null || id != command.TableId)
     //    {
@@ -56,9 +56,9 @@ public class TodoController : BaseController
     //}
 
     //[HttpDelete("v1/table/specification/{id}")]
-    //public async Task<IActionResult> DeleteTableSpecification(Guid id)
+    //public async Task<IActionResult> DeleteTodo(Guid id)
     //{
-    //    var command = new DeleteTableSpecificationCommand
+    //    var command = new DeleteTodoCommand
     //    {
     //        TableId = id
     //    };

@@ -27,6 +27,6 @@ namespace Persistence.Models
         [Required]
         public int DetailCount { get; set; }
 
-        public ICollection<TodoDetail> TodoDetails { get; set; }
+        public List<TodoDetail> TodoDetails { get; set; }
     }
 }
