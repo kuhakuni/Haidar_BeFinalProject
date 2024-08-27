@@ -310,3 +310,4 @@ D:\Mandiri\Bootcamp\be-project\haidar_redis\Application\obj\Debug\net8.0\refint\
 D:\Mandiri\Bootcamp\be-project\haidar_redis\Application\obj\Debug\net8.0\Application.pdb
 D:\Mandiri\Bootcamp\be-project\haidar_redis\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
 D:\Mandiri\Bootcamp\be-project\haidar_redis\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Mandiri\Bootcamp\be-project\haidar_redis\Application\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
